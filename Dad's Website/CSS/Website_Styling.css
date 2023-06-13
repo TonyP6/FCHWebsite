@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Vastine';
+    src: url('Fonts/Vastine-Regular[1].otf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Riporno';
+    src: url('Fonts/Riporno[1].otf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Quicksand';
+    src: url('Fonts/Quicksand-VariableFont_wght[1].ttf') format('truetype');
+  }
+
+* {
+    border: transparent;
+    background-color: black;
+}
+
+h1 {
+    color: rgb(0, 15, 147);
+    background-image: linear-gradient(230deg, rgb(71, 71, 71), rgb(187, 187, 187) 60%);
+    font-family: Vastine;
+    text-transform: uppercase;
+    font-size: 100px;
+    margin: 0px;
+    font-style: italic;
+    font-weight: 900;
+    padding-top: 15px;
+}
+
+h3 {
+    color: white;
+    margin: 5px;
+    font-size: 50px;
+    background-color: transparent;
+    color: black;
+}
+
+h4 {
+    background-color: transparent;
+    border: transparent;
+    margin: 5px;
+    font-size: 53px;
+    font-style: italic;
+    font-weight: 550;
+    color: black;
+}
+
+p {
+    font-family: quicksand;
+    line-height: 1.5em;
+    font-size: 35px;
+    color: gray;
+    margin-bottom: 450px;
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+footer {
+    background-color: rgb(175, 175, 175);
+    color: red;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: square;
+    padding-top: 0px;
+}
+
+li {
+    font-size: 65px;
+    font-weight: 400;
+    font-family: Quicksand;
+    color: white;
+}
+
+.SocialMedia {
+    height: 57px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 15px;
+    margin-bottom: -15px;
+}
+
+#email {
+    background-color: transparent;
+    color: black;
+    font-weight: 1000;
+    font-size: 40px;
+    letter-spacing: 1.2px;
+    margin: 10px;
+    font-style: italic;
+}
+
+footer {
+    background-image: linear-gradient(230deg, rgb(71, 71, 71), rgb(187, 187, 187) 60%);
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+a:visited {
+    color: white;
+}
+
+.footer {
+    font-style: normal;
+    font-size: 40px;
+}
+
+#name {
+    padding-top: 10px;
+}
