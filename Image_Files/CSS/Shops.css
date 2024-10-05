@@ -1,0 +1,19 @@
+* {
+    background-color: black;
+    margin: 20px;
+}
+
+img {
+    width: 30%;
+    min-width: 300px;
+}
+
+:link {
+    color: white;
+    font-size: 60px;
+    font-style: italic;
+}
+
+:visited {
+    color: white;
+}
